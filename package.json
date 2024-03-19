@@ -1,0 +1,15 @@
+{
+  "name": "learn-tailwind",
+  "version": "1.0.0",
+  "description": "learn css framework tailwind",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "npx tailwindcss -i ./src/css/input.css -o ./public/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "muziro || amar",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
